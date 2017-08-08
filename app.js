@@ -1,3 +1,4 @@
+//Handles the Inputsubmit
 function handleInput() {
   $('form').submit(function(event){
     event.preventDefault();

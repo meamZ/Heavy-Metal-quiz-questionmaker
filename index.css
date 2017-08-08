@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+}
+header{
+  background-color: lightgrey;
+}
+header h3{
+  margin : 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.answerinput,.questioninput,.answerlabel,.questionlabel{
+  display: block;
+}
+main{
+  padding: 15px;
+}
+.answerinput, .questioninput{
+  width: 100%;
+  font-size: 25px;
+  height: 40px;
+  margin-top: 10px;
+}
+label{
+  font-size: 23px;
+}
+.answerinput{
+  background-color: #FFCCCC;
+}
+#answer1{
+  background-color: lightgreen;
+}
+code{
+   white-space: pre-wrap;
+}
+.submitbutton{
+  margin: 10px;
+  padding-right: 40px;
+  pading-left: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.outputbox{
+  margin-top: 10px;
+    border: 2px solid darkgrey;
+}

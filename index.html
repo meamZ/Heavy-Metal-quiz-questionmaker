@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Heavy-Metal-Quiz-Questionmaker</title>
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <h3>Make your own questions for the Heavy-Metal-Quiz</h3>
+    </header>
+    <main>
+      <form class="input" method="post">
+        <!-- Question -->
+        <label class="questionlabel" for="questionin">Question:</label>
+        <input class="questioninput" type="text" id="questionin" autocomplete="off" name="question" value="" >
+        <!-- Answer 1 (correct) -->
+        <label class="answerlabel" for="answer1">Answer 1 (correct answer)</label>
+        <input class="answerinput" id="answer1" autocomplete="off" type="text" name="answer1" value=''>
+        <!-- Answer 2 (wrong) -->
+        <label class="answerlabel" for="answer2">Answer 2 (wrong)</label>
+        <input class="answerinput" id="answer2" autocomplete="off" type="text" name="answer2" value="">
+        <!-- Answer 3 (wrong) -->
+        <label class="answerlabel" for="answer3">Answer 3 (wrong)</label>
+        <input class="answerinput" id="answer3" autocomplete="off" type="text" name="answer3" value="">
+        <!-- Answer 4 (wrong) -->
+        <label class="answerlabel" for="answer4">Answer 4 (wrong)</label>
+        <input class="answerinput" id="answer4" autocomplete="off" type="text" name="answer4" value="">
+        <button class="submitbutton" type="submit" name="button">Add Question</button>
+      </form>
+      <section>
+        Copy the code below:
+        <div class="outputbox">
+          <code class="output"></code>
+        </div>
+      </section>
+
+      <!-- jQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <!-- app.js import -->
+      <script type="text/javascript" src="app.js"></script>
+
+    </main>
+  </body>
+</html>

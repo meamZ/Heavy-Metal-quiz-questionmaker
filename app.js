@@ -9,7 +9,7 @@ function handleInput() {
     renderOut(question, answers, $('code').text() === '');
   });
 }
-
+//Renders the output
 function renderOut(question, answers,isfirst){
   var first = '{question: ';
   if(!isfirst){
